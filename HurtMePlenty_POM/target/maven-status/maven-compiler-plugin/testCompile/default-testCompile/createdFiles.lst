@@ -1,0 +1,5 @@
+org\example\AppTest.class
+test\BaseTest.class
+page\CalculatorPage.class
+test\CalculatorPageTests.class
+page\BasePage.class

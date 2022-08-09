@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 36.048 s <<< FAILURE! - in TestSuite
+checkInformationInVmClassString(test.CalculatorPageTests)  Time elapsed: 29.513 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='gs-title']//b[contains(text(),'Google Cloud Pricing Calculator')]"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'EPINHYDW03DB', ip: '10.71.12.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4f6d1a6aea5de80b1095b014e6feff60, findElement {using=xpath, value=//div[@class='gs-title']//b[contains(text(),'Google Cloud Pricing Calculator')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\VISHAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59723}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59723/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f6d1a6aea5de80b1095b014e6feff60
+	at test.CalculatorPageTests.checkInformationInVmClassString(CalculatorPageTests.java:9)
+
